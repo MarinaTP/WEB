@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.clear-fix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+img {
+    width: 60px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    float: left;
+}
+header{
+    margin-top: 40px;
+    
+}
+.header {
+    float: left;
+    margin-left: 30px;
+}
+h1 {
+    margin-bottom: 10px;
+}
+main {
+    clear: both;
+    margin-top: 40px;
+}
+.first-article {
+    width: 420px;
+    float: left;
+    border-right: 3px solid black;
+    height: 600px;
+
+}
+.second-article {
+    width: 520px;
+    float: left;
+    margin-left: 10px;
+}

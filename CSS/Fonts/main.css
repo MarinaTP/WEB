@@ -1,0 +1,71 @@
+p{
+font-size: 30px;
+font-weight: normal;
+}
+h1{
+text-align: center;
+font-family: 'Chango', cursive;
+}
+.first{ 
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+quotes: "The story goes on and on...";
+font-size: 15px;
+text-align: left;
+font-family: 'Chango', cursive;
+}
+.second{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: oblique;
+text-align: right;
+}
+.third{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+}
+.different{
+font-size: 2em;
+font-style: italic;
+
+}
+.fourth{
+font-family: 'Arial', 'Verdana', monospace;
+}
+.fifth{
+font-family: cursive;
+}
+.big{
+text-transform: uppercase;
+text-decoration-line: underline;
+}
+.small{
+text-transform: lowercase;
+text-decoration-line: line-through;
+}
+#acqua{
+vertical-align: sub;
+}
+.sites{
+color: chartreuse;
+text-shadow: -3px 12px 2px rgba(150, 150, 150, 1);
+}
+.sites:link{
+color: red;
+}
+.sites:visited{
+color:black;
+}
+.sites:hover{
+color: green;
+}
+.sites:active{
+color: blue;
+}
+.uno{
+letter-spacing: 5px;
+}
+.due{
+line-height: 2em;
+}
+.tre{
+text-decoration: none;
+}

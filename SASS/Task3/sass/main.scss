@@ -1,0 +1,17 @@
+.p1{
+    border: 5px solid red;
+    width: 450px / 900px * 100%;
+}
+.p2{
+    @extend .p1;
+    border-color: blue;
+    width: 600px / 900px * 100%;
+}
+.p3{
+    @extend .p1;
+    border-color: green;
+    width: 700px / 900px * 100%;
+}
+.container{
+    width: 900px;
+}

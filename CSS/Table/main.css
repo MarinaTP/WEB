@@ -1,0 +1,20 @@
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+th{
+    background-color: red;
+}
+img{
+    height: 100px;
+    padding: 5px;
+}
+th, td{
+    padding: 10px, 0;
+}
+tr:hover{
+    background-color: yellow;
+}
+
+tr:nth-child(2n) {background: grey}

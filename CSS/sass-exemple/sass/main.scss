@@ -1,0 +1,20 @@
+
+$red-color: rgb(255, 0, 0);
+$yellow: rgb(0, 0, 255);
+
+.first {
+    border: 1px solid black;
+    p {
+        color: $red-color;
+    }
+}
+
+.second {
+    border: 1px solid black;
+    p {
+        color: $yellow;
+        &:hover {
+            color: black;
+        }
+    }
+}

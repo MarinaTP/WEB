@@ -1,0 +1,40 @@
+.formGet{
+    background-color: rgb(226, 219, 219);
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5%;
+}
+.one{
+    color: rgb(13, 13, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.two{color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:hover {
+    cursor: pointer;
+}
+
+.ruller{
+    width: 200px;
+    margin: 0 auto;
+}
+.button {
+    color: white;
+    background-color: rgb(199, 30, 30);
+    border-radius: 5%;
+    margin-top: 20px;
+    width: 200px;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5%;
+}
+
+.lb {
+    text-align: left;
+}

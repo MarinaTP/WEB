@@ -1,0 +1,41 @@
+/*.one {
+    width: 200px;
+    height: 200px;
+    background-color: darkred;
+}
+.two {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+.three {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}*/
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: darkred;
+    z-index: 1;
+    position: fixed;
+    
+}
+.two {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+    z-index: 2;
+}
+.three {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+}

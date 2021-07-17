@@ -1,0 +1,26 @@
+#pict {
+  width: 300px;
+  box-shadow: 2px 2px goldenrod; }
+
+.title {
+  background-color: #78c83c; }
+
+h1 {
+  background-color: #0a0064;
+  text-shadow: 2px 2px #FF0000; }
+
+table {
+  width: 100%;
+  color: #0a0064;
+  background: pink;
+  border-collapse: collapse;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  table tr {
+    border-bottom: 1px solid #0a0064; }
+  table td {
+    padding: 5px 0;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px; }
+
+/*# sourceMappingURL=id.css.map */

@@ -1,0 +1,31 @@
+@import 'mixins';
+@import 'variables';
+#pict {
+    width: $width1;
+    @include boxShadow();
+}
+
+.title{
+    background-color: $color1;
+}
+
+h1{
+    background-color: $color2;
+    @include textShadow();
+}
+table {
+    width: 100%;
+    color: $color2;
+    background: $color3;
+    border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+tr{
+    border-bottom: 1px solid $color2;
+    }
+
+td {
+    padding: 5px 0;
+    @include padding(10px, 20px);
+    }
+}

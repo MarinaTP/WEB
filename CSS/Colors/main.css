@@ -1,0 +1,24 @@
+.firstParagraph {color: DarkTurquoise;
+                 background-color: red; 
+                opacity: 50% ;}
+
+.secondParagraph {color: rgb(0, 206, 209);
+                  background-color:	rgba(0, 128, 0, 0.5);}
+
+.thirdParagraph {color: #00ced1;
+                 background-color: #008000; }
+
+
+.img1 { opacity: 30%; }
+
+.img2 {background-color:  rgba(255, 192, 203, 0.5); }
+
+table {border-collapse: collapse; }
+
+table tr td {
+    border: 1px solid black;
+  }
+
+.first {background-color: AliceBlue;}
+
+.second {background-color: HotPink;}

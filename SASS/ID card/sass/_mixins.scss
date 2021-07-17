@@ -1,0 +1,12 @@
+@mixin padding ($pad, $font) {
+    padding: $pad; 
+    margin: $pad;  
+    font-size: $font;
+}
+@mixin textShadow() {
+    text-shadow: 2px 2px #FF0000;
+}
+@mixin boxShadow() {
+    box-shadow: 2px 2px goldenrod;
+    
+}

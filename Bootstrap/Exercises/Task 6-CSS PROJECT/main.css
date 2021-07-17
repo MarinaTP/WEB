@@ -1,0 +1,444 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url("../assets/fonts/Roboto-Black.ttf");
+    font-weight: 900;
+  }
+  
+  @font-face {
+    font-family: Roboto-Light;
+    src: url('../assets/fonts/Roboto-Light.ttf');
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: Roboto-Regular;
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../assets/fonts/Roboto-Medium.ttf');
+    font-weight: 500;
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Regular;
+}
+main {
+    width: 100%;
+    margin: auto;
+}
+header {
+    width: 100%; 
+    margin: 30px 0;
+}
+nav {
+    width: 90%;
+    margin: 0 auto;
+}
+.build-estate {
+    text-align: center;
+    margin-top: 10px;
+}
+.build {
+    color: rgb(224, 148, 7);
+    border: 3px solid rgba(78, 77, 76, 0.897);
+    border-right: none;
+    font-weight: 800;
+}
+.estate {
+    color: 5px solid rgba(78, 77, 76, 0.897);
+    font-weight: 700;
+}
+.navbar {
+    background-color: rgba(44, 161, 228, 0.74);
+    text-align: center; 
+    margin: 30px 0;
+    padding: 3px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.nav-img {
+    background-image: url(./Assets/Images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.abs {
+    display: block;
+    margin: 0 auto;
+}
+.btn {
+    margin: 0 auto;
+    border-radius: 14px;
+    padding: 8px 15px;
+    background-color: rgba(51, 99, 202, 0.87);
+    color: white;
+    display: block;
+    border-style: none;
+}
+h1 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    padding: 10px;
+}
+.rm{
+   margin: 0 auto;
+   text-align: center;
+   position: relative;
+   width: 50px;
+}
+.romb{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    transform: rotate(45deg) ;
+}
+.rm::before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right: 100%;
+    top: 44%;
+    display: block;
+}
+.rm::after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+   left: 100%;
+    top: 44%;
+    display: block;
+}
+h2 {
+    text-align: center;
+}
+h4 {
+    color:rgba(44, 161, 228, 0.74);
+}
+
+.section1{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+article {
+    width: 90%;
+    margin: 10px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.arrow {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.img-cent {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.section2{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.people {
+    background-color: rgba(126, 201, 245, 0.863);
+    
+}
+.people-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgba(126, 201, 245, 0.863);
+}
+.name-people {
+    display: inline-block;
+    height: 60px;  
+    margin: 20px;
+}
+.stars {
+    height: 30px;
+    width: 50px;
+    background-color: rgba(126, 201, 245, 0.863);
+    color: white;
+}
+.description {
+    text-align: left;
+    color: white;
+    line-height: 1.6;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.section3 {
+    width: 100%;
+}
+.squares {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact-us {
+    background-color: rgb(73, 238, 161);
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    padding: 20px;
+    padding-top: 40px;
+}
+.tel {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(73, 238, 161);
+}
+
+.connect-us {
+    background-color: rgb(255, 105, 138);
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.face {
+    width: 35px;
+    height: 35px;
+}
+.tweet {
+    width: 35px;
+    height: 35px;
+}
+.insta {
+    width: 35px;
+    height: 35px;
+}
+.link {
+    width: 35px;
+    height: 35px;
+}
+.address {
+    width: 50%;
+    height: 200px;
+    background-color: rgba(37, 40, 199, 0.842);
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+.map-sign {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(37, 40, 199, 0.842);
+}
+.mapping {
+    display: flex;
+    justify-content: center;
+}
+.house {
+    width: 50%;
+    height: 200px;
+    background-color: rgb(116, 189, 238);
+}
+.house-img {
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.mapouter {
+    width: 100%;
+}
+
+.section4 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.formMail {
+    width: 90%;
+}
+form {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+form input {
+    width: 100%;
+    font-family: Roboto;
+    font-weight: 400;
+    padding: 5px;  
+    margin-bottom: 15px;
+}
+form textarea {
+    width: 100%;
+    margin-bottom: 20px; 
+  }
+
+.button {
+    width: 15%;
+    background-color: orange;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    border: none;
+    padding: 4px 10px;
+  }
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 30px;
+}
+.foot {
+    display: inline;
+    margin: 5px;
+    font-weight: 100px;
+}
+.copyright {
+    height: 15px;
+    width: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.copyright-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    @media only screen and (min-width: 768px){
+        header {
+            background-image: url(/Assets/Images/banner3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .nav-img {
+            background-image: none;
+        }
+        nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .navbar {
+            background-color: transparent;
+            margin-top: 10px;
+        }
+        .build-estate {
+            margin-top: 30px;
+            display: inline-block;
+        }
+        .navbar ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .navbar li {
+            margin-right: 8px;
+        }
+        .build {
+            border-color: white;
+        }
+        .estate {
+            color: white;
+        }
+        .abs {
+            margin-top: 10px;
+        }
+        .whoWeAre {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        article {
+            width: 45%;
+        }
+        .img-cent {
+            width: 45%;
+        }
+        .section2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .people {
+            width: 45%;
+        }
+        form {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+          }
+          .input {
+            width: 32%;        
+          }
+          .textarea {
+            width: 100%;
+            margin-bottom: 20px; 
+          }
+        .button {
+            border-radius: 4px;
+        }
+    }
+    @media only screen and (min-width: 1200px){
+        article {
+            width: 30%;
+        }
+        .img-cent {
+            width: 30%;
+        }
+        .people {
+            width: 30%;
+        }
+        .contact-us {
+            width: 25%;
+        }
+        .connect-us {
+            width: 25%;
+        }
+        .address {
+            width: 25%;
+        }
+        .house {
+            width: 25%;
+        }
+    }

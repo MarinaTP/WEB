@@ -1,0 +1,13 @@
+.first {
+  border: 1px solid black; }
+  .first p {
+    color: red; }
+
+.second {
+  border: 1px solid black; }
+  .second p {
+    color: blue; }
+    .second p:hover {
+      color: black; }
+
+/*# sourceMappingURL=main.css.map */
